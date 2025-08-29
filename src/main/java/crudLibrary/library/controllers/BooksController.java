@@ -1,7 +1,7 @@
-package controllers;
+package crudLibrary.library.controllers;
 
-import services.BookService;
-import models.BookModel;
+import crudLibrary.library.services.BookService;
+import crudLibrary.library.models.BookModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

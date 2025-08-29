@@ -1,0 +1,12 @@
+Node/NestJS	             Spring Boot/Gradle
+npm i	                 ./gradlew build
+npm start	             ./gradlew bootRun
+npm run build	         ./gradlew bootJar
+npm test	             ./gradlew test
+npm run clean	         ./gradlew clean
+npm run dev	             ./gradlew bootRun + DevTools
+
+PHP/codeigniter
+php spark clear:cache     ./gradlew clean build --refresh-dependencies
+php spark serve           ./gradlew bootRun --no-daemon
+

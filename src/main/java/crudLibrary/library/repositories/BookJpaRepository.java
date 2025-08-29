@@ -1,6 +1,6 @@
-package repositories;
+package crudLibrary.library.repositories;
 
-import models.BookModel;
+import crudLibrary.library.models.BookModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

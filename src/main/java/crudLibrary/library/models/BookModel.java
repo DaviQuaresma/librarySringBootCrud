@@ -1,4 +1,4 @@
-package models;
+package crudLibrary.library.models;
 
 import jakarta.persistence.*;
 import java.util.Date;
@@ -17,7 +17,7 @@ public class BookModel {
     @Temporal(TemporalType.DATE)
     private Date publishDate;
 
-    private int userId;
+    private Long userId;
     private boolean userLoan;
 
     @Temporal(TemporalType.DATE)
@@ -42,8 +42,8 @@ public class BookModel {
     public Date getPublishDate() { return publishDate; }
     public void setPublishDate(Date publishDate) { this.publishDate = publishDate; }
 
-    public int getUserId() { return userId; }
-    public void setUserId(int userId) { this.userId = userId; }
+    public Long getUserId() { return userId; }
+    public void setUserId(Long userId) { this.userId = userId; }
 
     public boolean isUserLoan() { return userLoan; }
     public void setUserLoan(boolean userLoan) { this.userLoan = userLoan; }
