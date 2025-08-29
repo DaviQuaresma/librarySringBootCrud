@@ -1,4 +1,4 @@
-package books;
+package models;
 
 import jakarta.persistence.*;
 import java.util.Date;
